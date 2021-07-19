@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/struggle" />
+
+    <TextView
+        android:id="@+id/ot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="א"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="י"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot1"
+        app:layout_constraintEnd_toStartOf="@+id/ot1"
+        app:layout_constraintTop_toTopOf="@+id/ot1" />
+
+    <TextView
+        android:id="@+id/ot3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ן"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot1"
+        app:layout_constraintEnd_toStartOf="@+id/ot2"
+        app:layout_constraintTop_toTopOf="@+id/ot1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/ot4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ל"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot1"
+        app:layout_constraintEnd_toStartOf="@+id/ot3"
+        app:layout_constraintTop_toTopOf="@+id/ot1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/ot5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ך"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot1"
+        app:layout_constraintEnd_toStartOf="@+id/ot4"
+        app:layout_constraintTop_toTopOf="@+id/ot1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/ot7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="מ"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundImage" />
+
+    <TextView
+        android:id="@+id/ot8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ל"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot7" />
+
+    <TextView
+        android:id="@+id/ot9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ח"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot8" />
+
+    <TextView
+        android:id="@+id/ot10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="מ"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot9" />
+
+    <TextView
+        android:id="@+id/ot11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ה"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot10" />
+
+    <TextView
+        android:id="@+id/ot12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ע"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot11" />
+
+    <TextView
+        android:id="@+id/ot13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ם"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot12" />
+
+    <TextView
+        android:id="@+id/ot14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ה"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot13" />
+
+    <TextView
+        android:id="@+id/ot15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ע"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot14" />
+
+    <TextView
+        android:id="@+id/ot16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ו"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot15" />
+
+    <TextView
+        android:id="@+id/ot17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ל"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot16" />
+
+    <TextView
+        android:id="@+id/ot18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="ם"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ot7"
+        app:layout_constraintEnd_toStartOf="@+id/ot17" />
+
+    <TextView
+        android:id="@+id/ot19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="200dp"
+        android:fontFamily="@font/stamashkenazclmwebfont"
+        android:text="אלא"
+        android:textColor="@color/letterColor"
+        android:textSize="@dimen/letterSize"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundImage"
+        app:layout_constraintTop_toTopOf="@+id/backgroundImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

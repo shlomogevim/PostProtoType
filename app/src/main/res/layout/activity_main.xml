@@ -85,7 +85,7 @@
         android:id="@+id/ot48"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="135dp"
         android:layout_marginEnd="20dp"
 
         android:text="אבל"
@@ -99,7 +99,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="165dp"
-        android:layout_marginEnd="70dp"
+        android:layout_marginEnd="20dp"
 
         android:text="יש"
         android:textColor="@color/letterColor"
@@ -125,7 +125,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="25dp"
 
-        android:text="מלחמה"
+        android:text="וויכוח מתמשך"
         android:textColor="@color/letterColor"
 
         app:layout_constraintBottom_toBottomOf="@+id/ot50"

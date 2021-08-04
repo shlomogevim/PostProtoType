@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="letterSize">34sp</dimen>
+    <dimen name="side_distance">15dp</dimen>
+    <dimen name="vertical_distance_line_1">60dp</dimen>
+    <dimen name="vertical_distance_line_2">90dp</dimen>
+    <dimen name="vertical_distance_line_3">110dp</dimen>
+    <dimen name="verical_ditance_line_4">140dp</dimen>
+    <dimen name="vertical_distance_line_5">520dp</dimen>
+    <dimen name="vertical_distance_line_6">550dp</dimen>
+    <dimen name="vertical_distance_line_7">580dp</dimen>
 </resources>

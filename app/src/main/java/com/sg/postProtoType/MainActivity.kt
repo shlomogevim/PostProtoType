@@ -1,14 +1,11 @@
-package com.sg.post11
+package com.sg.postProtoType
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.DisplayMetrics
 import android.util.Log
-import android.view.animation.Animation
-import android.view.animation.AnimationUtils
 import android.widget.TextView
 import coil.load
-import com.github.florent37.viewanimator.AnimationBuilder
 import com.github.florent37.viewanimator.ViewAnimator
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -16,18 +13,19 @@ class MainActivity : AppCompatActivity() {
     val dur = 1000L
     lateinit var views: ArrayList<TextView>
     var selector=0
-    val k="stam"
+
 
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        getDimention()
 
         createArray()
 
 
-        backgroundImage.load(R.drawable.struggle)
+        backgroundImage.load(R.drawable.sad)
         preAnimation()
         backgroundImage.setOnClickListener {
             //makeAnimation()
@@ -39,6 +37,14 @@ class MainActivity : AppCompatActivity() {
            }
         }
 
+    }
+
+    private fun getDimention() {
+        val displayMetrics=DisplayMetrics()
+        windowManager.defaultDisplay.getMetrics(displayMetrics)
+        var width=displayMetrics.widthPixels
+        var height=displayMetrics.heightPixels
+        Log.i("dimm","Width=$width    hight=$height")
     }
 
     private fun makeAnim() {

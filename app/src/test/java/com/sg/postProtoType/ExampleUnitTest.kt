@@ -1,4 +1,4 @@
-package com.sg.post11
+package com.sg.postProtoType
 
 import org.junit.Test
 
